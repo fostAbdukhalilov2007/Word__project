@@ -105,6 +105,66 @@ header {
     margin-top: 240px;
 }
 
-
+.money__table{
+    text-align: center;
+    margin: 10px 0;
+}
+.money__table__tr__th{
+    color: #23dd;
+    border-bottom: 1px solid #23dd;
+}
+.money__table__tr__th{
+    width: 15%;
+}
+.money__table__tr__td{
+    padding: 2px 0;
+    border-bottom: 1px solid #23dd;
+}
 
 /* money end */
+
+/* credit */
+
+
+.credit {
+    margin: 20px 0;
+}
+
+.credit__border {
+    padding: 8px 4px;
+    color: #fff;
+    background: #23dd;
+}
+
+.credit__table{
+    text-align: center;
+    margin: 10px 0;
+}
+.credit__table__tr__td {
+    border-bottom: 1px solid #23dd;
+}
+.credit__table__tr__th{
+    color: #23dd;
+    border-bottom: 1px solid #23dd;
+}
+.credit__table__tr__th{
+    width: 15%;
+}
+.money__table__tr__td{
+    padding: 2px 0;
+}
+/* credit end */
+
+/* example */
+
+
+.example__border {
+    padding: 8px 4px;
+    color: #fff;
+    background: grey;
+}
+
+.example__p {
+    margin: 10px 0;
+}
+/* example end */
