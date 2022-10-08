@@ -1,0 +1,110 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.burger {
+    width: 90%;
+    margin: auto;
+    border-color: #23dd;
+}
+.text__color {
+    color: dimgray;
+    font-size: 14px;
+}
+/* header */
+
+header {
+    margin-top: 50px;
+}
+
+.header__h4 {
+    float: right;
+    text-align: right;
+    color: rgb(18, 66, 199);
+}
+
+.header__nav {
+    display: flex;
+    float: right;
+    margin-top: -30px;
+}
+.header__nav li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.header__nav li:last-child {
+    padding-right: 0px;
+    list-style-type: none;
+}
+
+.header__nav li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: dimgray;
+}
+
+.header__nav li a img {
+    margin-right: 5px;
+}
+
+
+/* header end */
+
+/* credit */
+
+.info__credit {
+    margin: 40px 0;
+}
+.info__credit__qr_code {
+    float: right;
+    margin-top: -120px;
+}
+/* credit end */
+
+/* person */
+
+.person__border {
+    padding: 8px 4px;
+    color: #fff;
+    background: #23dd;
+}
+.person__info {
+    margin: 40px 0;
+}
+.person__info__img {
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+.person__info__text {
+    float: left;
+}
+.person__info__text p{
+    margin-bottom: 5px;
+    border-bottom: 1px solid cadetblue;
+    border-bottom-width: 100%;
+
+}
+
+/* person end */
+
+/* money */
+
+.money {
+    margin-top: 240px;
+}
+
+
+
+/* money end */
