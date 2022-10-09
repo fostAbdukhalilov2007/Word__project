@@ -136,22 +136,8 @@ header {
     background: #23dd;
 }
 
-.credit__table{
-    text-align: center;
-    margin: 10px 0;
-}
-.credit__table__tr__td {
-    border-bottom: 1px solid #23dd;
-}
-.credit__table__tr__th{
-    color: #23dd;
-    border-bottom: 1px solid #23dd;
-}
-.credit__table__tr__th{
-    width: 15%;
-}
-.money__table__tr__td{
-    padding: 2px 0;
+.credit__table {
+    
 }
 /* credit end */
 
