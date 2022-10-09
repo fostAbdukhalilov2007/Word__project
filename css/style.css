@@ -137,8 +137,12 @@ header {
 }
 
 .credit__table {
-    
+    margin: 10px 0;
 }
+.credit__table__tr__th, .credit__table__tr__td {
+    border-bottom: 1px solid #23dd;
+}
+
 /* credit end */
 
 /* example */
