@@ -104,7 +104,11 @@ header {
 .money {
     margin-top: 240px;
 }
-
+.money__text {
+    text-align: center;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
 .money__table{
     text-align: center;
     margin: 10px 0;
@@ -125,7 +129,6 @@ header {
 
 /* credit */
 
-
 .credit {
     margin: 20px 0;
 }
@@ -135,12 +138,20 @@ header {
     color: #fff;
     background: #23dd;
 }
-
-.credit__table {
-    margin: 10px 0;
+.credit__table__tr__th {
+    color: #23dd;
 }
-.credit__table__tr__th, .credit__table__tr__td {
+.credit__table {
+    margin: 20px 0;
+    width: 100%;
+}
+.credit__table__tr__td, .credit__table__tr__th{
+    padding: 2px 0;
     border-bottom: 1px solid #23dd;
+}
+
+.credit__table__tr__td{
+    text-align: center;
 }
 
 /* credit end */
@@ -156,5 +167,7 @@ header {
 
 .example__p {
     margin: 10px 0;
+    font-size: 12px;
+    font-weight: bold;
 }
 /* example end */
